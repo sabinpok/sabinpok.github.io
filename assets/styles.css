@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #333; /* Dark grey */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #004d00; /* Green */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #ff6600; /* Orange */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #333; /* Dark grey */
+    padding: 10px 0;
+}
+
+.assignments, .links {
+    text-align: center;
+}
+
+.assignments ul, .links ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.assignments li, .links li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.team-member {
+    background-color: #e6e6e6; /* Light grey background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team-member strong {
+    font-size: 1.2rem;
+}
+
+.role {
+    font-style: normal;
+    color: #333; /* Black for roles */
+    margin-top: 5px;
+}
+
+.contact {
+    margin-top: 10px;
+}
